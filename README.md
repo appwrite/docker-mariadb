@@ -1,2 +1,49 @@
-# docker-mariadb
-MariaDB container with Appwrite server DB schema and tables initialised and ready to use for fresh installations.
+# Docker MariaDB
+
+![Docker Pulls](https://img.shields.io/docker/pulls/appwrite/mariadb.svg)
+[![Chat With Us](https://img.shields.io/gitter/room/appwrite/community.svg)](https://gitter.im/appwrite/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
+MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tables initialized and ready to use for fresh Appwrite installation. This server is only extending the official MariaDB docker image with Appwrite schemas and tables already installed, for a fresh installation of MariaDB use only [docker original image](https://hub.docker.com/_/mariadb).
+
+## Getting Started
+
+These instructions will cover usage information to help your run Appwrite's MariaDB docker container.
+
+### Prerequisities
+
+In order to run this container you'll need docker installed.
+
+* [Windows](https://docs.docker.com/windows/started)
+* [OS X](https://docs.docker.com/mac/started/)
+* [Linux](https://docs.docker.com/linux/started/)
+
+### Usage
+
+```shell
+docker run appwrite/mariadb:v1.0.0
+```
+
+### Versioning
+
+This image versioning is following Appwrite server versioning. This means that if you use Appwrite server version 1.1.*, also use version 1.1.* of Appwrite MariaDB docker image.
+
+#### Environment Variables
+
+This container supports all environment variables supplied by the official MariaDB Docker image.
+
+## Find Us
+
+* [GitHub](https://github.com/appwrite)
+* [Gitter](https://gitter.im/utopia-php/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Twitter](https://twitter.com/appwrite_io)
+
+## Authors
+
+**Eldad Fux**
+
++ [https://twitter.com/eldadfux](https://twitter.com/eldadfux)
++ [https://github.com/eldadfux](https://github.com/eldadfux)
+
+## Copyright and license
+
+The MIT License (MIT) [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
