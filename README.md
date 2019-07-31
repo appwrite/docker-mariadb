@@ -3,7 +3,7 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/appwrite/mariadb.svg)
 [![Chat With Us](https://img.shields.io/gitter/room/appwrite/community.svg)](https://gitter.im/appwrite/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tables initialized and ready to use for fresh Appwrite installation. This server is only extending the official MariaDB docker image with Appwrite schemas and tables already installed, for a fresh installation of MariaDB use only [docker original image](https://hub.docker.com/_/mariadb).
+MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tables initialized and ready to use for fresh Appwrite installation. This server is only extending the official MariaDB docker image with Appwrite schemas and tables already installed, for a fresh installation of MariaDB use only [docker official image](https://hub.docker.com/_/mariadb).
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ docker run appwrite/mariadb:v1.0.0
 
 ### Versioning
 
-This image versioning is following Appwrite server versioning. This means that if you use Appwrite server version 1.1.*, also use version 1.1.* of Appwrite MariaDB docker image.
+This image versioning is following Appwrite server versioning. This means that if you use Appwrite server version 1.1.* , also use version 1.1.* of Appwrite MariaDB docker image.
 
 #### Environment Variables
 
