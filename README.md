@@ -27,7 +27,7 @@ docker run appwrite/mariadb:v1.0.0
 
 This image versioning is following Appwrite server versioning. This means that if you use Appwrite server version 1.1.* , also use version 1.1.* of Appwrite MariaDB docker image.
 
-#### Environment Variables
+### Environment Variables
 
 This container supports all environment variables supplied by the official MariaDB Docker image.
 
