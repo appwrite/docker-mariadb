@@ -20,7 +20,7 @@ In order to run this container you'll need docker installed.
 ### Usage
 
 ```shell
-docker run appwrite/mariadb:v1.0.0
+docker run appwrite/mariadb
 ```
 
 ### Versioning
