@@ -19,7 +19,7 @@ In order to run this container you'll need docker installed.
 
 ### Usage
 
-```shell
+```javascript
 docker run appwrite/mariadb
 ```
 
