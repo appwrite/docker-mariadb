@@ -46,4 +46,4 @@ This container supports all environment variables supplied by the official Maria
 
 ## Copyright and license
 
-The MIT License (MIT) [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
+Appwrite [The MIT License](http://www.opensource.org/licenses/mit-license.php)
