@@ -9,7 +9,7 @@ MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tabl
 
 These instructions will cover usage information to help your run Appwrite's MariaDB docker container.
 
-### Prerequisities
+### Prerequisites
 
 In order to run this container you'll need docker installed.
 
