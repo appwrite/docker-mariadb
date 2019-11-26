@@ -5,7 +5,7 @@ USE `appwrite`;
 CREATE TABLE IF NOT EXISTS `template.abuse.abuse` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `_key` varchar(255) NOT NULL,
-  `_time` varchar(45) NOT NULL,
+  `_time` int(11) NOT NULL,
   `_count` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique1` (`_key`,`_time`),
