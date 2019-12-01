@@ -34,7 +34,7 @@ This container supports all environment variables supplied by the official Maria
 ## Find Us
 
 * [GitHub](https://github.com/appwrite)
-* [Gitter](https://gitter.im/appwrite/community)
+* [Discord](https://discord.gg/GSeTUeA)
 * [Twitter](https://twitter.com/appwrite_io)
 
 ## Authors
