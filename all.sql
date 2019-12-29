@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS `template.abuse.abuse` (
 CREATE TABLE IF NOT EXISTS `template.audit.audit` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userId` varchar(45) NOT NULL,
-  `userType` int(11) NOT NULL,
   `event` varchar(45) NOT NULL,
   `resource` varchar(45) DEFAULT NULL,
   `userAgent` text NOT NULL,
