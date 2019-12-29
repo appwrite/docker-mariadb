@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `template.audit.audit` (
   `data` longtext DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`),
-  KEY `index_1` (`userId`,`userType`),
+  KEY `index_1` (`userId`),
   KEY `index_2` (`event`),
   KEY `index_3` (`resource`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
