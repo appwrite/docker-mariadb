@@ -31,6 +31,14 @@ This image versioning is following Appwrite server versioning. This means that i
 
 This container supports all environment variables supplied by the official MariaDB Docker image.
 
+### Build
+
+```bash
+docker build --tag appwrite/mariadb:1.0.3 .
+
+docker push appwrite/mariadb:1.0.3
+```
+
 ## Find Us
 
 * [GitHub](https://github.com/appwrite)
