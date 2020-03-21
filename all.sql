@@ -73,10 +73,18 @@ CREATE TABLE IF NOT EXISTS `template.database.relationships` (
   KEY `relationships_end_nodes_id_idx` (`end`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE IF NOT EXISTS `template.database.unique` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `key` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `index1` (`key`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 /* Default App */
 
 CREATE TABLE IF NOT EXISTS `app_console.database.documents` LIKE `template.database.documents`;
 CREATE TABLE IF NOT EXISTS `app_console.database.properties` LIKE `template.database.properties`;
 CREATE TABLE IF NOT EXISTS `app_console.database.relationships` LIKE `template.database.relationships`;
+CREATE TABLE IF NOT EXISTS `app_console.database.unique` LIKE `template.database.unique`;
 CREATE TABLE IF NOT EXISTS `app_console.audit.audit` LIKE `template.audit.audit`;
 CREATE TABLE IF NOT EXISTS `app_console.abuse.abuse` LIKE `template.abuse.abuse`;
