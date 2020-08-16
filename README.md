@@ -34,9 +34,9 @@ This container supports all environment variables supplied by the official Maria
 ### Build
 
 ```bash
-docker build --tag appwrite/mariadb:1.0.3 .
+docker build --tag appwrite/mariadb:1.1.0 .
 
-docker push appwrite/mariadb:1.0.3
+docker push appwrite/mariadb:1.1.0
 ```
 
 ## Find Us
