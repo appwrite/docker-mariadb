@@ -54,4 +54,4 @@ docker push appwrite/mariadb:1.1.0
 
 ## Copyright and license
 
-The MIT License (MIT) [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
+The MIT License [MIT](http://www.opensource.org/licenses/mit-license.php)
