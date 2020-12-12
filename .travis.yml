@@ -26,6 +26,6 @@ script:
   - sleep 10
   - docker ps -a
   - docker-compose logs mariadb
-  - docker-compose exec mariadb ls /docker-entrypoint-initdb.d
-  - docker-compose exec mariadb cat /docker-entrypoint-initdb.d/all.sql
-  - docker-compose exec mariadb mysqldump --user=root --password=rootsecretpassword appwrite
+  - docker-compose exec -T mariadb ls /docker-entrypoint-initdb.d
+  - docker-compose exec -T mariadb cat /docker-entrypoint-initdb.d/all.sql
+  - docker-compose exec -T mariadb mysqldump --user=root --password=rootsecretpassword appwrite
