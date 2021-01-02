@@ -6,7 +6,6 @@
 [![Twitter Account](https://img.shields.io/twitter/follow/appwrite_io?color=00acee&label=twitter&style=flat-square)](https://twitter.com/appwrite_io)
 [![Follow Appwrite on StackShare](https://img.shields.io/badge/follow%20on-stackshare-blue?style=flat-square)](https://stackshare.io/appwrite)
 
-
 MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tables initialized and ready to use for fresh Appwrite installation. This server is only extending the official MariaDB docker image with Appwrite schemas and tables already installed, for a fresh installation of MariaDB use only [docker official image](https://hub.docker.com/_/mariadb).
 
 ## Getting Started
