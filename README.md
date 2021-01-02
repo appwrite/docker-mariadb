@@ -1,7 +1,11 @@
 # Docker MariaDB
 
-![Docker Pulls](https://img.shields.io/docker/pulls/appwrite/mariadb.svg)
-[![Discord](https://img.shields.io/discord/564160730845151244)](https://discord.gg/GSeTUeA)
+[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)
+[![Docker Pulls](https://img.shields.io/docker/pulls/appwrite/mariadb?color=f02e65&style=flat-square)](https://hub.docker.com/r/appwrite/mariadb)
+[![Build Status](https://img.shields.io/travis/com/appwrite/docker-mariadb?style=flat-square)](https://travis-ci.com/appwrite/docker-mariadb)
+[![Twitter Account](https://img.shields.io/twitter/follow/appwrite_io?color=00acee&label=twitter&style=flat-square)](https://twitter.com/appwrite_io)
+[![Follow Appwrite on StackShare](https://img.shields.io/badge/follow%20on-stackshare-blue?style=flat-square)](https://stackshare.io/appwrite)
+
 
 MariaDB container with [Appwrite server](https://appwrite.io) DB schema and tables initialized and ready to use for fresh Appwrite installation. This server is only extending the official MariaDB docker image with Appwrite schemas and tables already installed, for a fresh installation of MariaDB use only [docker official image](https://hub.docker.com/_/mariadb).
 
@@ -22,10 +26,6 @@ In order to run this container you'll need docker installed.
 ```shell
 docker run appwrite/mariadb
 ```
-
-### Versioning
-
-This image versioning is following Appwrite server versioning. This means that if you use Appwrite server version 1.1.* , also use version 1.1.* of Appwrite MariaDB docker image.
 
 ### Environment Variables
 
@@ -50,13 +50,6 @@ docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le --tag ap
 * [GitHub](https://github.com/appwrite)
 * [Discord](https://discord.gg/GSeTUeA)
 * [Twitter](https://twitter.com/appwrite_io)
-
-## Authors
-
-**Eldad Fux**
-
-+ [https://twitter.com/eldadfux](https://twitter.com/eldadfux)
-+ [https://github.com/eldadfux](https://github.com/eldadfux)
 
 ## Copyright and license
 
