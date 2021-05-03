@@ -1,4 +1,4 @@
-FROM mariadb:10.5.8
+FROM mariadb:10.6.0
 
 LABEL maintainer="team@appwrite.io"
 
