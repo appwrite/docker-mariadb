@@ -33,15 +33,15 @@ This container supports all environment variables supplied by the official Maria
 ### Build
 
 ```bash
-docker build --tag appwrite/mariadb:1.2.0 .
+docker build --tag appwrite/mariadb:1.3.0 .
 
-docker push appwrite/mariadb:1.2.0
+docker push appwrite/mariadb:1.3.0
 ```
 
 Multi-arch build (experimental using [buildx](https://github.com/docker/buildx)):
 
 ```
-docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le --tag appwrite/mariadb:1.2.0 --push .
+docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le --tag appwrite/mariadb:1.3.0 --push .
 ```
 
 ## Find Us
