@@ -43,4 +43,4 @@ deploy:
       docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le -t appwrite/mariadb:$TRAVIS_TAG ./ --push
     on:
       tags: true
-      condition: $TRAVIS_CPU_ARCH = amd64
+      condition: "$TRAVIS_CPU_ARCH = amd64"
