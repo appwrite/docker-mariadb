@@ -24,4 +24,3 @@ networks:
 
 volumes:
   db-mariadb:
-

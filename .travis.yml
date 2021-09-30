@@ -12,6 +12,9 @@ arch:
 
 os: linux
 
+env:
+  - CRYPTOGRAPHY_ALLOW_OPENSSL_102=true
+
 before_install:
   - curl -fsSL https://get.docker.com | sh
   - echo '{"experimental":"enabled"}' | sudo tee /etc/docker/daemon.json
