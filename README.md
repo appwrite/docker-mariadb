@@ -47,8 +47,8 @@ docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le --tag ap
 ## Find Us
 
 * [GitHub](https://github.com/appwrite)
-* [Discord](https://discord.gg/GSeTUeA)
-* [Twitter](https://twitter.com/appwrite_io)
+* [Discord](https://appwrite.io/discord)
+* [Twitter](https://twitter.com/appwrite)
 
 ## Copyright and license
 
