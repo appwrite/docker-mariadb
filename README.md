@@ -41,7 +41,7 @@ docker push appwrite/mariadb:1.3.0
 Multi-arch build (experimental using [buildx](https://github.com/docker/buildx)):
 
 ```
-docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le --tag appwrite/mariadb:1.3.0 --push .
+docker buildx build --platform linux/amd64,linux/arm64/v8,linux/ppc64le,linux/s390x --tag appwrite/mariadb:1.3.0 --push .
 ```
 
 ## Find Us
