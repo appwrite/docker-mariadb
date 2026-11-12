@@ -1,4 +1,4 @@
-FROM mariadb:10.6
+FROM mariadb:10.10@sha256:334b315c10e5d0db1dc2305bfa27f7760335272a157364158dc30b10b70dfa9b
 
 LABEL maintainer="team@appwrite.io"
 
